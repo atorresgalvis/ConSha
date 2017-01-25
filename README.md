@@ -15,6 +15,8 @@ And finally we run ConSha function:
 
 Obtaining the file __dataset_AlgnBySpecies.tps__ that contains the consensus shapes of the species.
 
-###Note1: we tested the function with a file that contains 571 specimens belonging to 18 species and the run takes 0.81 secs. to obatin the consensus shapes.
+###Note1:
+we tested the function with a file that contains 571 specimens belonging to 18 species and the run takes 0.81 secs. to obatin the consensus shapes.
 
-###Note2: it is needed to be very careful withe the assigned names to the specimens, being sure that the name of the species are the same in all their specimens. (E.g. Two specimens named as "Genus_Specie" y "genus_speCie" will be recognized as two different species).
+###Note2:
+it is needed to be very careful withe the assigned names to the specimens, being sure that the name of the species are the same in all their specimens. (E.g. Two specimens named as "Genus_Specie" y "genus_speCie" will be recognized as two different species).
