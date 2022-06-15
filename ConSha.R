@@ -7,7 +7,7 @@
 ## Description: obtain the CONsensus (average) SHApes of multiple specimens, for each species in a same tps (.tps) file.
 ## License: GPL (3)
 
-ConSha <- function(x) {   ## x must be the name of the tps file without the ".tps"
+ConSha <- function(x) {   ## x must be the name of the tps file
 		library(geomorph)
 		library(abind)
 		data1 <- readland.tps(x, specID = "ID")
