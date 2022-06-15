@@ -11,7 +11,7 @@ We load the ConSha function:
 **__source("ConSha.R")__**
 
 And finally we run ConSha function:
-**__ConSha("dataset")__**
+**__ConSha("dataset.tps")__**
 
 Obtaining the file __dataset_AlgnBySpecies.tps__ that contains the consensus shapes of the species.
 
