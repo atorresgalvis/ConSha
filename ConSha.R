@@ -1,20 +1,20 @@
 ## Title: ConSha
 ## Version: 0.1-1
-## Date: 2018-03-28
+## Date: 2022-06-15
 ## Author: Ambrosio Torres
 ## Maintainer: Ambrosio Torres <atorresgalvis@gmail.com>
-## Depends: R version (>= 3.4.1), geomorph, abind
+## Depends: R version (>= 3.6.3), geomorph, abind
 ## Description: obtain the CONsensus (average) SHApes of multiple specimens, for each species in a same tps (.tps) file.
 ## License: GPL (3)
 
 ConSha <- function(x) {   ## x must be the name of the tps file without the ".tps"
 		library(geomorph)
 		library(abind)
-		tpsfile_name <- paste(x, ".tps", sep="")
-		data1 <- readland.tps(tpsfile_name, specID = "ID")
+		data1 <- readland.tps(x, specID = "ID")
 		NameList <- dimnames(data1)[[3]]							
 		UniqueNames <- unique(gsub('[[:digit:]]+', '', NameList))
 		UniqueNames <- unique(gsub('[[:space:]]', '', UniqueNames))
+		UniqueNames <- unique(gsub('-', '', UniqueNames))
 		finalData <- NULL											
 		for(i in 1:length(UniqueNames)) {							
 				name <- UniqueNames[i]
