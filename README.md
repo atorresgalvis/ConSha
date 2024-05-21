@@ -1,4 +1,4 @@
-# ConSha
+# ConSha <a href="https://doi.org/10.5281/zenodo.11226178"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.11226178.svg" alt="DOI"></a>
 The function calculates the Consensus Shapes of different species from a same .tps file.
 
 In the case that we have one (1) file with landmark data (.tps) of multiple specimens to each of multiple species (e.g. 100 specimens of specia A, 30 specimens of specie B, 47 specimens of specie C, etc.). The information could be unordered. Then, ConSha takes the configurations of the 100 specimens of specie A and calculates the consensus shape of specie A, subsequently, takes the configurations of the 30 specimens of specie B and calculates the consensus shape of specie B, etc. We obtain an output file (.tps) with the consensus shapes for each specie (A,B,C...).
