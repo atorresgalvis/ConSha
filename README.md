@@ -20,3 +20,7 @@ we tested the function with a file that contains 571 specimens belonging to 18 s
 
 ###Note2:
 it is needed to be very careful with the assigned names to the specimens, being sure that the name of the species are the same in all their specimens. (E.g. Two specimens named as "Genus_Specie" y "genus_speCie" will be recognized as two different species).
+
+## Citation
+Torres, A. (2024). ConSha: R function to perform multiple Consensus Shapes. Zenodo. https://doi.org/10.5281/zenodo.11226178
+
